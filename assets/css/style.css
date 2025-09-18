@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+background-color: #041125; 
+}
+.navbar {
+  color: white;
+  padding: 2% 5% 2% 5%;
+}
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.whatsapp-float {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 20px;
+  right: 20px;
+  background-color: white;
+  color: #FFF;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whatsapp-float img {
+  width: 35px;
+  height: 35px;
+}
+.quienes-somos{
+    color: white;
+    padding: 7%;
+}
+.quienes-somos p{
+    font-size: 1rem;
+    line-height: 2;
+    font-weight: 300;
+    margin: 5% 10% 5% 10%;
+    text-align: justify;
+}
+.card-title{
+    padding-top: 5%;
+}
+
+.contacto{
+    padding: 2%;
+}
+.contacto h2{
+    color: white;
+    text-align: center;
+}
+form {
+   background-color: white;
+    padding: 10% 15% 10% 15%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.testimonios{
+    padding: 10%;
+   background-color: aliceblue;
+}
+footer
+{
+    background-color: #fff;
+    color: #041125;
+    text-align: center;
+    padding: 3%;
+      box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer h4
+{
+    font-size: 1.1rem;
+}
+#inicio{
+    color: white;
+    padding: 7%;
+}   
+#usuarios{
+    color: white;
+    
+}
+#usuarios h3{
+    color: white;
+    }
+#formulario {
+    color: #041125;
+   
+}
